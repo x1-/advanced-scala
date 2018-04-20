@@ -94,6 +94,7 @@ provided by `cats.syntax.invariant`:
 
 ```tut:book:silent
 import cats.Monoid
+import cats.instances.monoid._ // for Monoid
 import cats.instances.string._ // for Monoid
 import cats.syntax.invariant._ // for imap
 import cats.syntax.semigroup._ // for |+|
